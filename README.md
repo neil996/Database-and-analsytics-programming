@@ -8,6 +8,10 @@ Below is the abstract, detailing about the problem faced and how it will be tack
 
 * The study aims to analyze various patients’ under different categories of their respective health status. The research in the topic helped to generalize the data in a more efficient manner so as to analyze the Covid deaths across various counties moreover exploring new insights in the hidden data such as number of probable deaths, new cases, updated probable deaths, identifying different age groups and their corresponding symptoms.
 
+# ETL Process described below:
+
+https://github.com/neil996/Database-and-analsytics-programming/blob/main/images/etl.PNG
+
 * Data Extraction Process: The data is processed is done using ETL method i.e. Extract, Transform and Load. ETL is a powerful system through which data can be stored and transformed for example applying some calculations , joining, grouping, filtering, etc. in an efficient manner. At present ETL is mutating at a rapid growth as more and more data is generating each day as evident with Amazon Redshift and Google Big Query . These tools provide functionalities to transform and analyze the results without shifting the data to any staging area. In the four distinct datasets related to Covid-19, the data has been extracted from different sources, transformed and then loaded in PostgreSQL database for later usage i.e. finding patterns and making predictions.
 
 1. Extraction: This is the phase where data from various sources is gathered and processed in the staging area. As staging provides various advantages such as it reduces the performance issue that would be faced if the data would be directly migrated to Data Warehouse as shifting data directly to a central data warehouse could result in unwanted circumstances such as data getting corrupted and thus making a rollback would be a challenge. Thus the data from individual sources is first stored in Mongo DB then followed by pre-processing the same data in Python Notebook and then finally migrating the entire data suite to Azure PostgreSQL.
