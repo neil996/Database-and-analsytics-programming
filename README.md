@@ -27,4 +27,12 @@ Below is the abstract, detailing about the problem faced and how it will be tack
 The Research Question aimed to answer is “Predicting the probable new cases along with evaluating current new cases in different counties across United States of America.”
 The combined datasets are imported from PostgreSQL using Python and on basis of the pre-processed and cleaned data, Machine Learning algorithm and Visualizations on the combined datasets are done which gave interesting insights on the grouped data, such as plotting the Total cases vs. New Cases on a scatter plot, it was observed that between 0 to 1.25 Million cases, the number of new cases tend to be clustered and not increasing at a rapid rate, but as the total number of cases are increasing the number of new cases are increasing moderately as shown in the scatter plot.
 
+* Scatter plot:
+![image](https://github.com/neil996/Database-and-analsytics-programming/blob/main/images/etl.PNG)
+
+* Pie chart showing patients with different conditions affected by covi-19
+![image](https://github.com/neil996/Database-and-analsytics-programming/blob/main/images/conditions.PNG)
+
+* Bar chart showing Probable vs. Confirmed cases
+![image](https://github.com/neil996/Database-and-analsytics-programming/blob/main/images/probable.PNG)
 
