@@ -1,6 +1,6 @@
 # Analyzing Covid-19 Deaths in Patients with Different Conditions among Various Counties in the United States of America
 
-As a group project comprising of 2 team memebers, this repository presents the work done by me, moreover there are 2 Jupyter Notebooks uploaded, and it contains analysis performed on Coivd-19 using Pandas dataframes, numpy, regression techniques and No-SQL databases design.
+As a group project comprising of 2 team memebers, this repository presents the work done by me, moreover there are 2 Jupyter Notebooks uploaded, and it contains analysis performed on Coivd-19 using Pandas dataframes, numpy, regression techniques and No-SQL databases design. The datasets has been acquired from CDC though Socrata API, and retreived in python by using limit parameter.
 
 Below is the abstract, detailing about the problem faced and how it will be tackeled thorugh this research.
 
