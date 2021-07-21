@@ -15,9 +15,9 @@ Below is the abstract, detailing about the problem faced and how it will be tack
 2. Transformation: It is the second step in ETL (Extraction, Transformation and Load). We have mainly used Python for the purpose of Transformation. From different datasets we have removed unwanted columns which are not required for our analysis. After this next step we have checked in all the data frames if any Null value present as we must remove them for the proper analysis of our datasets. In our cases we have used imputation methods to remove “NA” or “NULL” like replacing NA values by Median. We have Chosen Median as the percentage of Missing Values is 15 percent. Finally, we have used Group by function to do analysis on Covid 19 datasets, like getting the Top 3 state in U.S.A with most no of Covid19 deaths.
 
 
-3. Warehousing: We have used PostgreSQL hosted on Azure as a warehouse database because of the following reasons [9].
-i) It’s an Open Source Database Management System (D.B.M.S)
-ii) Its best suited for Complex queries which have high I/O and involves lot System resources.
+3. Warehousing: We have used PostgreSQL hosted on Azure as a warehouse database because of the following reasons.
+- It’s an Open Source Database Management System (D.B.M.S)
+- Its best suited for Complex queries which have high I/O and involves lot System resources.
 
 * Research Findings:
 The Research Question aimed to answer is “Predicting the probable new cases along with evaluating current new cases in different counties across United States of America.”
