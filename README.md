@@ -19,7 +19,7 @@ Below is the abstract, detailing about the problem faced and how it will be tack
 - It’s an Open Source Database Management System (D.B.M.S)
 - Its best suited for Complex queries which have high I/O and involves lot System resources.
 
-* Research Findings:
+4. Research Findings:
 The Research Question aimed to answer is “Predicting the probable new cases along with evaluating current new cases in different counties across United States of America.”
 The combined datasets are imported from PostgreSQL using Python and on basis of the pre-processed and cleaned data, Machine Learning algorithm and Visualizations on the combined datasets are done which gave interesting insights on the grouped data, such as plotting the Total cases vs. New Cases on a scatter plot, it was observed that between 0 to 1.25 Million cases, the number of new cases tend to be clustered and not increasing at a rapid rate, but as the total number of cases are increasing the number of new cases are increasing moderately as shown in the scatter plot.
 
