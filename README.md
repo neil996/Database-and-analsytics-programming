@@ -10,7 +10,7 @@ Below is the abstract, detailing about the problem faced and how it will be tack
 
 # ETL Process described below:
 
-[!image] https://github.com/neil996/Database-and-analsytics-programming/blob/main/images/etl.PNG
+![image] https://github.com/neil996/Database-and-analsytics-programming/blob/main/images/etl.PNG
 
 * Data Extraction Process: The data is processed is done using ETL method i.e. Extract, Transform and Load. ETL is a powerful system through which data can be stored and transformed for example applying some calculations , joining, grouping, filtering, etc. in an efficient manner. At present ETL is mutating at a rapid growth as more and more data is generating each day as evident with Amazon Redshift and Google Big Query . These tools provide functionalities to transform and analyze the results without shifting the data to any staging area. In the four distinct datasets related to Covid-19, the data has been extracted from different sources, transformed and then loaded in PostgreSQL database for later usage i.e. finding patterns and making predictions.
 
